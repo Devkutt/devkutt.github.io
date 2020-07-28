@@ -1,11 +1,22 @@
 * {
+    margin: 0;
     box-sizing: border-box;
     text-align: center;
     font-size: 1.25rem;
 }
 
 body {
+    padding-top: 2.5rem;
     width: 100%;
+}
+
+h1 {
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+}
+
+img {
+    margin: 1rem;
 }
 
 .presents {
