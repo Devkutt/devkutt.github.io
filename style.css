@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+}
+
+.presents {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@media (min-width: 800px) {
+    .presents {
+        flex-direction: row;
+    }
+}
+
+
+.presents > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
