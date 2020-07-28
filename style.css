@@ -37,6 +37,10 @@ img {
     align-items: center;
 }
 
+.presents > section > img {
+    width: 100%;
+}
+
 .introduction {
     display: flex;
     flex-direction: column;
